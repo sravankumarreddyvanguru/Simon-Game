@@ -66,7 +66,7 @@ function nextSequence(){
 }
 
 function playSound(color){
-  var sound="sounds/"+color+".mp3";
+  var sound=color+".mp3";
   var audio = new Audio(sound);
    audio.play();
 }
